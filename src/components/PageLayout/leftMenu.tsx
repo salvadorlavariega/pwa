@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+
 const links = [
 	{ label: 'Home', href: '/' },
 	{ label: 'Profile', href: '/profile' },

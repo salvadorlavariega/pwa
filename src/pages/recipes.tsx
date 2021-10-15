@@ -1,4 +1,4 @@
-import Page from '@/components/page'
+import Page from 'src/components/page'
 
 const Recipes = () => (
 	<Page>
@@ -29,7 +29,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -47,7 +47,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -65,7 +65,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -83,7 +83,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -101,7 +101,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -119,7 +119,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -137,7 +137,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -155,7 +155,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -173,7 +173,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -191,7 +191,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -209,7 +209,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -227,7 +227,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -245,7 +245,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -263,7 +263,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -281,7 +281,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -299,7 +299,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -317,7 +317,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -335,7 +335,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -353,7 +353,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -371,7 +371,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -389,7 +389,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -407,7 +407,7 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        <section className='mt-10'>
+		<section className='mt-10'>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
@@ -425,7 +425,6 @@ const Recipes = () => (
 				</li>
 			</ul>
 		</section>
-        
 	</Page>
 )
 

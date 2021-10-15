@@ -9,7 +9,7 @@ const Portrait = () => {
                  
         </div>
         <div className="pl-3 h-12">
-            <img className="inline-block h-20 w-20  rounded-full border-2" style={{transform: "translateY(-50%)"}} src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png" alt=""/>
+            <img className="inline-block h-20 w-20  rounded-full border-2" style={{marginTop: "-7%"}} src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png" alt=""/>
         </div>
         <div className="ml-3">
             <p className="text-base leading-6 font-medium text-white pr-1">
@@ -19,7 +19,7 @@ const Portrait = () => {
                 </span>
             </p>
         </div>
-        <div className="px-6">
+        <div className="px-6 py-3">
             <p className="text-base md:text-md width-auto font-medium text-white flex-shrink">
                 Day 07 of the challenge I was wondering what I can do with so just started building
                 Twitter UI using Tailwind and so far it looks so promising. I will post my code after completion.
