@@ -3,6 +3,7 @@ import { ThemeProvider } from 'next-themes'
 import Meta from 'src/components/meta'
 import 'src/styles/globals.css'
 import 'src/components/PageLayout/page.css'
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 const App = ({ Component, pageProps }: AppProps) => {
 	return (
@@ -17,4 +18,5 @@ const App = ({ Component, pageProps }: AppProps) => {
 	)
 }
 
+//export default withAuthenticator(App)
 export default App

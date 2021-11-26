@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 const links = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Profile', href: '/profile' },
+	{ label: 'Login', href: '/login' },
 ]
 
 const Appbar = () => {
@@ -14,13 +14,25 @@ const Appbar = () => {
 			<header className='bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-800'>
 				<div className='mx-auto px-6 max-w-screen-md h-20 flex items-center justify-between'>
 					<Link href='/'>
-                        <a href="#" className="mt-1 group flex items-center pl-6 md:px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
-                            <svg className="mr-4 h-6 w-6 " stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V10M9 21h6"></path>
-                            </svg>
-                            <p>Home</p>
-                        </a>
-                                
+						<a
+							href='#'
+							className='mt-1 group flex items-center pl-6 md:px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300'
+						>
+							<svg
+								className='mr-4 h-6 w-6 '
+								stroke='currentColor'
+								fill='none'
+								viewBox='0 0 24 24'
+							>
+								<path
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									stroke-width='2'
+									d='M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V10M9 21h6'
+								></path>
+							</svg>
+							<p>Home</p>
+						</a>
 					</Link>
 
 					<nav className='space-x-6 flex items-center'>

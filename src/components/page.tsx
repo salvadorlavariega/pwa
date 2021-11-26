@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Appbar from '@/components/appbar'
-import BottomNav from '@/components/bottom-nav'
+import Appbar from 'src/components/appbar'
+import BottomNav from 'src/components/bottom-nav'
 
 interface Props {
 	title?: string
