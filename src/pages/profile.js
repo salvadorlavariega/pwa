@@ -1,6 +1,4 @@
-import '../configureAmplify'
 import { useState, useEffect } from 'react'
-import Page from 'src/components/page'
 import PageTw from 'src/components/page-tw'
 import Article from 'src/components/article'
 import { Auth } from 'aws-amplify'
@@ -8,16 +6,17 @@ import { Auth } from 'aws-amplify'
 const Profile = () => {
 	const [uiState, setUiState] = useState(null)
 	const [formState, setFormState] = useState(initialState)
-	console.log('##Profile')
+
 	useEffect(() => {
 		console.log('##Profile-En login.useEffect')
 		checkUser()
-		async function checkUser() {
-			const user = await Auth.currentAuthenticatedUser()
-			console.log('##Profile', { user })
-			localStorage.setItem('user', user)
+		function checkUser() {
+			console.log('##Profile')
 		}
 	}, [])
+	const onChange = (e) => {
+		setFormState({ ...formState, [e.target.name]: e.target.value })
+	}
 
 	return (
 		<PageTw>

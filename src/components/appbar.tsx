@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 const links = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Login', href: '/login' },
+	{ label: 'Login', href: '/signin' },
 ]
 
 const Appbar = () => {

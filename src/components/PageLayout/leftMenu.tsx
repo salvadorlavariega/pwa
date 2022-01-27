@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Auth } from 'aws-amplify'
 
 const links = [
 	{ label: 'Home', href: '/' },
@@ -125,7 +124,7 @@ const LeftMenu = () => {
 						</Link>
 						<button
 							className='bg-blue-400 hover:bg-blue-500 w-16 md:w-full mt-5 text-white font-bold py-2 px-4 rounded-full'
-							onClick={() => Auth.signOut()}
+							onClick={() => console.log('Sign Out')}
 						>
 							Log out
 						</button>
