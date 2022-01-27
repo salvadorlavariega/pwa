@@ -28,3 +28,7 @@ This README would normally document whatever steps are necessary to get your app
 - Repo owner or admin
 - Other community or team contact
 - nuevo componente
+
+### Versoin de node para ejecutar el proyecto
+
+- v16.13.0
