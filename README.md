@@ -1,5 +1,9 @@
 # README
 
+### Node version:
+
+- chava@MacBook-Pro-de-salvador pwa % node -v = v16.14.2
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for?
