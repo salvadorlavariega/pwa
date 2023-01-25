@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import PageTw from 'src/components/page-tw'
 import Article from 'src/components/article'
-import { Auth } from 'aws-amplify'
 
 const Profile = () => {
 	const [uiState, setUiState] = useState(null)

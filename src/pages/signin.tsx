@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import Page from 'src/components/page'
 import Link from 'next/link'
-import { Auth } from 'aws-amplify'
 
 export default function SignIn() {
 	return (

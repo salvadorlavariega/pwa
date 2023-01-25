@@ -8,7 +8,6 @@ node_modules
 **/public/workbox**
 **/public/sw**
 **/public/sw.js.map
-/public/sw.js.map
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
